@@ -1,0 +1,12 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class clinic extends Model
+{
+    protected $fillable = [
+        'clinic', 'fone', 'endereco', 'cidade', 'bairro', 'foto'
+    ];
+}
